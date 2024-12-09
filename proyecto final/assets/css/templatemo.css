@@ -1,0 +1,147 @@
+/* Templatemo 559 Zay Shop
+   Personalización para Amaro */
+
+   body, ul, li, p, a, label, input, div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+  }
+  
+  .h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+  }
+  
+  .h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+  }
+  
+  .h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px !important;
+  }
+  
+  /* Colores generales */
+  .logo { font-weight: 500 !important;}
+  .text-warning { color: #FFA500 !important;} /* Naranja cálido */
+  .text-muted { color: #A9A9A9 !important;} /* Gris suave */
+  .text-success { color: #4CAF50 !important;} /* Verde fresco */
+  .text-light { color: #E8F4F0 !important;} /* Verde menta suave */
+  .bg-dark { background-color: #212934 !important;}
+  .bg-light { background-color: #F5F5F5 !important;} /* Gris claro */
+  .bg-black { background-color: #1D242D !important;}
+  .bg-success { background-color: #4CAF50 !important;} /* Verde fresco */
+  .btn-success {
+    background-color: #4CAF50 !important; /* Verde fresco */
+    border-color: #388E3C !important; /* Verde más oscuro */
+  }
+  .pagination .page-link:hover {color: #000;}
+  .pagination .page-link:hover, .pagination .page-link.active {
+    background-color: #FF8C00; /* Naranja vibrante */
+    color: #fff;
+  }
+  
+  /* Barra de navegación */
+  #templatemo_nav_top { min-height: 40px;}
+  #templatemo_nav_top * { font-size: .9em !important;}
+  #templatemo_main_nav a { color: #333333;} /* Gris oscuro */
+  #templatemo_main_nav a:hover { color: #FF8C00;} /* Naranja vibrante */
+  #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+  
+  /* Hero Carousel */
+  #template-mo-zay-hero-carousel { background: #FFEFD5 !important;} /* Amarillo claro */
+  
+  /* Productos */
+  .product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+  
+  .product-wap .product-color-dot.color-dot-red { background:#FF5733;} /* Rojo anaranjado */
+  .product-wap .product-color-dot.color-dot-blue { background:#4FC3F7;} /* Azul suave */
+  .product-wap .product-color-dot.color-dot-black { background:#000000;}
+  .product-wap .product-color-dot.color-dot-light { background:#E0E0E0;}
+  .product-wap .product-color-dot.color-dot-green { background:#66BB6A;} /* Verde más suave */
+  
+  .card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .card.product-wap:hover .card .product-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .card.product-wap a { color: #333333;} /* Gris oscuro */
+  
+  #carousel-related-product .slick-slide:focus { outline: none !important;}
+  #carousel-related-product .slick-dots li button:before {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Carousel Hero */
+  #template-mo-zay-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: #FF8C00; /* Naranja vibrante */
+  }
+  
+  #template-mo-zay-hero-carousel .carousel-control-next i,
+  #template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #FF8C00 !important; /* Naranja vibrante */
+    font-size: 2.8em !important;
+  }
+  
+  /* Servicios */
+  .services-icon-wap {transition: .3s;}
+  .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+  .services-icon-wap:hover {background: #FF8C00;} /* Naranja vibrante */
+  
+  /* Contact map */
+  .leaflet-control a, .leaflet-control { font-size: 10px !important;}
+  .form-control { border: 1px solid #E8E8E8;} /* Gris claro */
+  
+  /* Footer */
+  #tempaltemo_footer a { color: #FF8C00;} /* Naranja vibrante */
+  #tempaltemo_footer a:hover { color: #66BB6A;} /* Verde suave */
+  #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+  #tempaltemo_footer ul.footer-icons li {
+    width: 2.6em;
+    height: 2.6em;
+    line-height: 2.6em;
+  }
+  
+  #tempaltemo_footer ul.footer-icons li:hover {
+    background-color: #E8F4F0;
+    transition: .5s;
+  }
+  
+  #tempaltemo_footer ul.footer-icons li:hover i {
+    color: #212934;
+    transition: .5s;
+  }
+  
+  #tempaltemo_footer .border-light { border-color: #2D343F !important;}
+  
+  /* Media Queries */
+  @media (min-width: 576px) {
+    .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    #templatemo_main_nav .navbar-nav {max-width: 550px;}
+    #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+    .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+    .product-wap .product-color-dot {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {}
+  
